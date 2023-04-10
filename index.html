@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 16px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Denis Novik</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li><a href="#" class="header__link">Home</a></li>
+              <li><a href="#about" class="header__link">About me</a></li>
+              <li><a href="#skills" class="header__link">Skills</a></li>
+              <li><a href="#portfolio" class="header__link">Portfolio</a></li>
+              <li><a href="#contacts" class="header__link">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="header__body">
+            <h1 class="header__title">Denis Novik</h1>
+            <h2 class="header__subtitle">
+              UX | UI designer 24 years old, Minsk
+            </h2>
+          </div>
+          <div class="header__photo">
+            <picture>
+              <source
+                srcset="img/main-media.jpg"
+                type="image/jpeg"
+                media="(max-width:375px)"
+              />
+              <img src="img/main.jpg" alt="" />
+            </picture>
+          </div>
+        </div>
+      </header>
+      <div class="about" id="about">
+        <div class="container">
+          <h3 class="about__title title">About me</h3>
+          <div class="about__text">
+            <p>
+              Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in
+              design and everything connected with it.
+            </p>
+            <p>
+              I'm studying at courses "Web and mobile design interfaces" in
+              IT-Academy.
+            </p>
+            <p>Ready to implement excellent projects with wonderful people.</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills" id="skills">
+        <div class="container">
+          <h3 class="skills__title title">Skills</h3>
+          <p class="skills__text">I work in such programs as</p>
+          <div class="skills__items">
+            <div class="skills__items-1">
+              <div class="skills__item">
+                <img src="img/skills/01.png" alt="" />
+              </div>
+              <div class="skills__item">
+                <img src="img/skills/02.png" alt="" />
+              </div>
+            </div>
+            <div class="skills__items-2">
+              <div class="skills__item">
+                <img src="img/skills/03.png" alt="" />
+              </div>
+              <div class="skills__item">
+                <img src="img/skills/04.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="container">
+          <h3 class="portfolio__title title" id="portfolio">Portfolio</h3>
+          <div class="portfolio-slider swiper-container">
+            <div class="portfolio-slider__wrapper swiper-wrapper">
+              <div class="portfolio-slider__slide swiper-slide">
+                <div class="portfolio-slider__image">
+                  <img src="img/portfolio/01.jpg" alt="" />
+                </div>
+                <div class="portfolio-slider__capture">
+                  Online fashion store - Homepage
+                </div>
+              </div>
+              <div class="portfolio-slider__slide swiper-slide">
+                <div class="portfolio-slider__image">
+                  <img src="img/portfolio/02.jpg" alt="" />
+                </div>
+                <div class="portfolio-slider__capture">
+                  Reebok Store - Concept
+                </div>
+              </div>
+              <div class="portfolio-slider__slide swiper-slide">
+                <div class="portfolio-slider__image">
+                  <img src="img/portfolio/03.jpg" alt="" />
+                </div>
+                <div class="portfolio-slider__capture">
+                  Braun Landing Page - Concept
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="contacts" id="contacts">
+        <div class="container">
+          <div class="contacts__body">
+            <h3 class="contacts__title title">Contacts</h3>
+            <p class="contacts__text">
+              Want to know more or just chat? You are welcome!
+            </p>
+            <a href="" class="contacts__button">Send message</a>
+            <div class="contacts__icons">
+              <div class="contacts__icon">
+                <img src="img/footer/01.svg" alt="" />
+              </div>
+              <div class="contacts__icon">
+                <img src="img/footer/02.svg" alt="" />
+              </div>
+              <div class="contacts__icon">
+                <img src="img/footer/03.svg" alt="" />
+              </div>
+              <div class="contacts__icon">
+                <img src="img/footer/04.svg" alt="" />
+              </div>
+            </div>
+            <p class="contacts__subtext">
+              Like me on LinkedIn, Instagram, Behance, Dribble
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
